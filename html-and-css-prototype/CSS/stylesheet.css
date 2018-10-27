@@ -69,6 +69,7 @@ h1 {
 	border: solid #eaeaea 1px;
 	margin-bottom: 11px;
 	width: 280px;
+	text-align: left;
 }
 
 .contenthead {
@@ -77,7 +78,7 @@ h1 {
 }
 
 .contentbody {
-	padding: 10px;
+	padding: 20px;
 }
 
 .orangetext {
@@ -88,12 +89,14 @@ h1 {
 p {
 	color: #777;
 	font-size: 11px;
+	margin-bottom: 10px;
 }
 
 .footer {
 	margin: 2em auto;
 	margin-top: 3px;
   display: flex;
+	align-content: space-between;
 }
 
 .action {
@@ -104,16 +107,35 @@ p {
 
 .Inputbox {
 	margin-top: 20px;
+	margin-bottom: 10px;
 }
 
+.dollarTag {
+	color:  #777;
+}
 
 .Input {
-	padding-top: 12px;
-	padding-bottom: 12px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
 	border-radius: 3px;
 	width: 100px;
 	border: solid #eaeaea 1px;
+	font-size: 14px;
+	margin-right: 33px;
+	display: inline;
+	font-weight: bold;
 }
+
+.inputValue {
+	color: #424242;
+	border: none;
+	width: 80px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+
 .greenButton {
 	background-color: #1CBC2C;
 	border: 2px solid #1CBC2C;
@@ -122,8 +144,27 @@ p {
 	color: #fff;
 }
 
+.blueLink {
+	padding-top: 10px;
+	color: #20A1D4;
+	font-size: 12px;
+	font-style: italic;
+	font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif;
+	text-align: left;
+}
+
 .greytext {
 	color:  #eaeaea;
+}
+
+.whiteButton {
+	background-color: #fff;
+	border: 1px solid #eaeaea;
+	width: 135px;
+	border-bottom: 2px solid rgba(0,0,0, 0.1);
+	color: #424242;
+	margin-left: 5px;
+	margin-right: 5px;
 }
 
 /* The following font information and color codes are provided for you.
