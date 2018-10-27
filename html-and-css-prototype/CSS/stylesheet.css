@@ -77,6 +77,11 @@ h1 {
 	height: 10px;
 }
 
+.orangebanner {
+	width: 75%;
+	background-color: #EF5F3C;
+	height: 10px;
+}
 .contentbody {
 	padding: 20px;
 }
