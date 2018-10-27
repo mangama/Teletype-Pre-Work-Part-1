@@ -24,7 +24,48 @@ h1 {
 	text-align: center;
 }
 
-/* The following font information and color codes are provided for you.  They do not match the prototype exactly, but they are fine to use for the assignment and doing so does not count against you.  They are simply meant to help you save time.  We would like everyone to have as close to a pixel-perfect match to the prototype as possible.  If you do find a font/color that matches more precisely, please share it with the team so we can improve the activity for future applicants.  Thank you!  Happy coding!
+.content {
+	margin: 2em auto;
+	border: solid #eaeaea 1px;
+	margin-bottom: 10px;
+	width: 350px;
+}
+
+.contenthead {
+	border-bottom: solid #eaeaea 1px;
+	height: 10px;
+}
+
+.contentbody {
+	padding: 10px;
+}
+
+.orangetext {
+	color: #EF5F3C;
+
+}
+
+p {
+	color: #777;
+	font-size: 11px;
+}
+
+.footer {
+	margin: 2em auto;
+  display: flex;
+}
+
+.action {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+/* The following font information and color codes are provided for you.
+They do not match the prototype exactly, but they are fine to use for the
+assignment and doing so does not count against you.  They are simply meant
+to help you save time.  We would like everyone to have as close to a
+pixel-perfect match to the prototype as possible.  If you do find a font/color
+that matches more precisely, please share it with the team so we can
+improve the activity for future applicants.  Thank you!  Happy coding!
 
 	FONTS:
 	font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif;
