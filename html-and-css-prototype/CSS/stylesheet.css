@@ -18,17 +18,57 @@ h1 {
 	font-weight: bold;
 }
 
+.tip {
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  background: transparent;
+  border: 7px solid #424242;
+}
+
+.tip-down {
+  bottom: -18px;
+  right: 15px;
+  border-right-color: transparent;
+  border-left-color: transparent;
+  border-bottom-color: transparent;
+}
+
+.dialogbox .body {
+  position: relative;
+  max-width: 300px;
+  height: auto;
+  margin: 0px 10px;
+  padding: 5px;
+  background-color: #424242;
+  border-radius: 3px;
+  border: 5px solid #424242;
+	width: 280px;
+	margin-bottom: -20px;
+}
+
+.body .message {
+  border-radius: 3px;
+  font-size: 13px;
+  color: #fff;
+}
+
 .container {
 	margin: 2em auto;
 	max-width: 630px;
 	text-align: center;
 }
 
+.greybox {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
 .content {
 	margin: 2em auto;
 	border: solid #eaeaea 1px;
 	margin-bottom: 11px;
-	width: 350px;
+	width: 280px;
 }
 
 .contenthead {
@@ -52,13 +92,40 @@ p {
 
 .footer {
 	margin: 2em auto;
+	margin-top: 3px;
   display: flex;
 }
 
 .action {
 	padding-top: 10px;
 	padding-bottom: 10px;
+	border-radius: 3px;
 }
+
+.Inputbox {
+	margin-top: 20px;
+}
+
+
+.Input {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	border-radius: 3px;
+	width: 100px;
+	border: solid #eaeaea 1px;
+}
+.greenButton {
+	background-color: #1CBC2C;
+	border: 2px solid #1CBC2C;
+	width: 100px;
+	border-bottom: 2px solid rgba(0,0,0, 0.3);
+	color: #fff;
+}
+
+.greytext {
+	color:  #eaeaea;
+}
+
 /* The following font information and color codes are provided for you.
 They do not match the prototype exactly, but they are fine to use for the
 assignment and doing so does not count against you.  They are simply meant
