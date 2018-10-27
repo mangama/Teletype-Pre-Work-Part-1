@@ -70,6 +70,7 @@ h1 {
 	margin-bottom: 11px;
 	width: 280px;
 	text-align: left;
+	border-bottom: 2px solid rgba(100,100,100, 0.3);
 }
 
 .contenthead {
